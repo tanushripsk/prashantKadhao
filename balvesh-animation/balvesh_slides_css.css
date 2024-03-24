@@ -1,0 +1,97 @@
+body{
+    overflow-x: hidden;
+}
+.div1{
+    background-color: rebeccapurple;
+    color: white;
+    width: 90%;
+    /* height: 300px; */
+    padding: 5%;
+}
+
+/* fade */
+.hidden{
+    opacity: 0;
+    /* filter: blur(5px); */
+    /* transform: translateX(-100%); */
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    /* transform: translateX(0); */
+}
+
+
+/* left */
+.hidden-left{
+    opacity: 0;
+    /* filter: blur(5px); */
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show-left{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+
+/* right */
+.hidden-right{
+    opacity: 0;
+    /* filter: blur(5px); */
+    transform: translateX(100%);
+    transition: all 1s;
+}
+.show-right{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+
+/* down */
+.hidden-down{
+    opacity: 0;
+    /* filter: blur(5px); */
+    transform: translateY(100%);
+    transition: all 1s;
+}
+.show-down{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+/* down */
+.hidden-up{
+    opacity: 0;
+    /* filter: blur(5px); */
+    transform: translateY(-100%);
+    transition: all 0.5s;
+}
+.show-up{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+/* zoom */
+.hidden-zoom{
+    opacity: 0;
+    /* filter: blur(5px); */
+    /* transform: scale(10px); */
+    transform: scale(5);
+
+    transition: all 1s;
+}
+.show-zoom{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
